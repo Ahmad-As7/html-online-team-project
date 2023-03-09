@@ -958,6 +958,10 @@ video {
     width: min-content;
   }
 
+  .mobile\:w-full {
+    width: 100%;
+  }
+
   .mobile\:flex-col {
     flex-direction: column;
   }
@@ -974,6 +978,14 @@ video {
 @media (min-width: 640px) {
   .tablet\:m-\[10px_0px_10px_0px\] {
     margin: 10px 0px 10px 0px;
+  }
+
+  .tablet\:w-\[50\%\] {
+    width: 50%;
+  }
+
+  .tablet\:w-\[240px\] {
+    width: 240px;
   }
 
   .tablet\:flex-row {
