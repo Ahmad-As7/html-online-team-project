@@ -4,8 +4,8 @@ module.exports = {
   theme: {
     extend: {
       screens: {
-        "mobile":"300px",
-        // => @media (min-width: 200px) { ... }
+        'mobile': '320px',
+        // => @media (min-width: 320px) { ... }
 
         'tablet': '640px',
         // => @media (min-width: 640px) { ... }
