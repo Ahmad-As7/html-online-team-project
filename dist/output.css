@@ -562,19 +562,14 @@ video {
   margin-right: auto;
 }
 
-.my-\[67px\] {
-  margin-top: 67px;
-  margin-bottom: 67px;
-}
-
-.my-\[20px\] {
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
-
 .my-\[30px\] {
   margin-top: 30px;
   margin-bottom: 30px;
+}
+
+.my-\[67px\] {
+  margin-top: 67px;
+  margin-bottom: 67px;
 }
 
 .mb-\[14px\] {
@@ -609,10 +604,6 @@ video {
   height: 19px;
 }
 
-.h-\[207px\] {
-  height: 207px;
-}
-
 .h-\[20px\] {
   height: 20px;
 }
@@ -629,10 +620,6 @@ video {
   height: 260px;
 }
 
-.h-\[2927px\] {
-  height: 2927px;
-}
-
 .h-\[294px\] {
   height: 294px;
 }
@@ -647,14 +634,6 @@ video {
 
 .h-\[350px\] {
   height: 350px;
-}
-
-.h-\[366px\] {
-  height: 366px;
-}
-
-.h-\[500px\] {
-  height: 500px;
 }
 
 .h-\[50px\] {
@@ -805,20 +784,16 @@ video {
   justify-content: space-between;
 }
 
-.justify-around {
-  justify-content: space-around;
-}
-
 .justify-evenly {
   justify-content: space-evenly;
 }
 
-.gap-\[40px\] {
-  gap: 40px;
-}
-
 .gap-\[20px\] {
   gap: 20px;
+}
+
+.gap-\[40px\] {
+  gap: 40px;
 }
 
 .rounded-\[2px\] {
@@ -1097,11 +1072,6 @@ video {
 @media (min-width: 640px) {
   .tablet\:m-\[10px_0px_10px_0px\] {
     margin: 10px 0px 10px 0px;
-  }
-
-  .tablet\:my-\[20px\] {
-    margin-top: 20px;
-    margin-bottom: 20px;
   }
 
   .tablet\:my-\[30px\] {
