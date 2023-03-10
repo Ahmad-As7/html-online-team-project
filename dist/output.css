@@ -562,6 +562,11 @@ video {
   margin-right: auto;
 }
 
+.my-\[30px\] {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
 .my-\[67px\] {
   margin-top: 67px;
   margin-bottom: 67px;
@@ -599,10 +604,6 @@ video {
   height: 19px;
 }
 
-.h-\[207px\] {
-  height: 207px;
-}
-
 .h-\[20px\] {
   height: 20px;
 }
@@ -619,10 +620,6 @@ video {
   height: 260px;
 }
 
-.h-\[2927px\] {
-  height: 2927px;
-}
-
 .h-\[294px\] {
   height: 294px;
 }
@@ -637,14 +634,6 @@ video {
 
 .h-\[350px\] {
   height: 350px;
-}
-
-.h-\[366px\] {
-  height: 366px;
-}
-
-.h-\[500px\] {
-  height: 500px;
 }
 
 .h-\[50px\] {
@@ -677,6 +666,10 @@ video {
 
 .h-full {
   height: 100%;
+}
+
+.h-\[47px\] {
+  height: 47px;
 }
 
 .w-\[100\%\] {
@@ -755,6 +748,14 @@ video {
   width: 100%;
 }
 
+.w-\[117px\] {
+  width: 117px;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
 .flex-col {
   flex-direction: column;
 }
@@ -783,12 +784,12 @@ video {
   justify-content: space-between;
 }
 
-.justify-around {
-  justify-content: space-around;
-}
-
 .justify-evenly {
   justify-content: space-evenly;
+}
+
+.gap-\[20px\] {
+  gap: 20px;
 }
 
 .gap-\[40px\] {
@@ -913,6 +914,10 @@ video {
   line-height: 1rem;
 }
 
+.text-\[13px\] {
+  font-size: 13px;
+}
+
 .font-normal {
   font-weight: 400;
 }
@@ -923,6 +928,10 @@ video {
 
 .leading-\[26px\] {
   line-height: 26px;
+}
+
+.leading-\[21px\] {
+  line-height: 21px;
 }
 
 .text-\[\#333333\] {
@@ -962,6 +971,27 @@ video {
     margin-bottom: 10px;
   }
 
+
+  .mobile\:my-\[20px\] {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .mobile\:h-\[50px\] {
+    height: 50px;
+  }
+
+  .mobile\:h-\[10px\] {
+    height: 10px;
+  }
+
+  .mobile\:h-\[15px\] {
+    height: 15px;
+  }
+
+  .mobile\:h-\[60px\] {
+    height: 60px;
+
   .mobile\:mx-auto {
     margin-left: auto;
     margin-right: auto;
@@ -974,12 +1004,37 @@ video {
 
   .mobile\:mb-\[50px\] {
     margin-bottom: 50px;
+
   }
 
   .mobile\:w-min {
     width: -moz-min-content;
     width: min-content;
   }
+
+
+  .mobile\:w-\[117px\] {
+    width: 117px;
+  }
+
+  .mobile\:w-\[320px\] {
+    width: 320px;
+  }
+
+  .mobile\:w-\[300px\] {
+    width: 300px;
+  }
+
+  .mobile\:w-\[290px\] {
+    width: 290px;
+  }
+
+  .mobile\:w-\[280px\] {
+    width: 280px;
+  }
+
+  .mobile\:w-\[80px\] {
+    width: 80px;
 
   .mobile\:w-full {
     width: 100%;
@@ -999,10 +1054,15 @@ video {
 
   .mobile\:flex-row {
     flex-direction: row;
+
   }
 
   .mobile\:flex-col {
     flex-direction: column;
+  }
+
+  .mobile\:justify-center {
+    justify-content: center;
   }
 
   .mobile\:justify-between {
@@ -1013,9 +1073,46 @@ video {
     gap: 7px;
   }
 
+
+  .mobile\:gap-\[40px\] {
+    gap: 40px;
+  }
+
+  .mobile\:text-center {
+    text-align: center;
+  }
+
+  .mobile\:text-\[20px\] {
+    font-size: 20px;
+  }
+
+  .mobile\:text-\[30px\] {
+    font-size: 30px;
+  }
+
+  .mobile\:text-\[35px\] {
+    font-size: 35px;
+  }
+
+  .mobile\:text-\[28px\] {
+    font-size: 28px;
+  }
+
+  .mobile\:text-\[16px\] {
+    font-size: 16px;
+  }
+
+  .mobile\:text-\[14px\] {
+    font-size: 14px;
+  }
+
+  .mobile\:text-\[10px\] {
+    font-size: 10px;
+
   .mobile\:bg-\[red\] {
     --tw-bg-opacity: 1;
     background-color: rgb(255 0 0 / var(--tw-bg-opacity));
+
   }
 
   .mobile\:text-\[12px\] {
@@ -1027,6 +1124,31 @@ video {
   .tablet\:m-\[10px_0px_10px_0px\] {
     margin: 10px 0px 10px 0px;
   }
+
+
+  .tablet\:my-\[30px\] {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  .tablet\:h-\[50px\] {
+    height: 50px;
+  }
+
+  .tablet\:h-\[20px\] {
+    height: 20px;
+  }
+
+  .tablet\:h-\[70px\] {
+    height: 70px;
+  }
+
+  .tablet\:w-\[357px\] {
+    width: 357px;
+  }
+
+  .tablet\:w-\[97px\] {
+    width: 97px;
 
   .tablet\:w-\[240px\] {
     width: 240px;
@@ -1046,11 +1168,28 @@ video {
 
   .tablet\:w-\[30\%\] {
     width: 30%;
+
   }
 
   .tablet\:flex-row {
     flex-direction: row;
   }
+
+
+  .tablet\:justify-between {
+    justify-content: space-between;
+  }
+
+  .tablet\:text-\[39px\] {
+    font-size: 39px;
+  }
+
+  .tablet\:text-\[18px\] {
+    font-size: 18px;
+  }
+
+  .tablet\:text-\[14px\] {
+    font-size: 14px;
 
   .tablet\:flex-col {
     flex-direction: column;
@@ -1061,6 +1200,7 @@ video {
   .desktop\:w-\[1440px\] {
     width: 1440px;
   }
+
 
   .desktop\:bg-\[\#ffffff\] {
     --tw-bg-opacity: 1;
