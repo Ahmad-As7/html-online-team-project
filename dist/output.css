@@ -553,6 +553,10 @@ video {
   }
 }
 
+.m-5 {
+  margin: 1.25rem;
+}
+
 .m-auto {
   margin: auto;
 }
@@ -587,6 +591,14 @@ video {
   display: flex;
 }
 
+.h-12 {
+  height: 3rem;
+}
+
+.h-24 {
+  height: 6rem;
+}
+
 .h-\[152px\] {
   height: 152px;
 }
@@ -597,10 +609,6 @@ video {
 
 .h-\[19px\] {
   height: 19px;
-}
-
-.h-\[207px\] {
-  height: 207px;
 }
 
 .h-\[20px\] {
@@ -619,10 +627,6 @@ video {
   height: 260px;
 }
 
-.h-\[2927px\] {
-  height: 2927px;
-}
-
 .h-\[294px\] {
   height: 294px;
 }
@@ -635,16 +639,16 @@ video {
   height: 350px;
 }
 
-.h-\[366px\] {
-  height: 366px;
-}
-
-.h-\[500px\] {
-  height: 500px;
+.h-\[47px\] {
+  height: 47px;
 }
 
 .h-\[50px\] {
   height: 50px;
+}
+
+.h-\[660px\] {
+  height: 660px;
 }
 
 .h-\[666px\] {
@@ -671,12 +675,12 @@ video {
   height: 100%;
 }
 
-.h-\[660px\] {
-  height: 660px;
+.h-screen {
+  height: 100vh;
 }
 
-.h-\[47px\] {
-  height: 47px;
+.w-10\/12 {
+  width: 83.333333%;
 }
 
 .w-\[100\%\] {
@@ -689,6 +693,10 @@ video {
 
 .w-\[1152px\] {
   width: 1152px;
+}
+
+.w-\[117px\] {
+  width: 117px;
 }
 
 .w-\[1440px\] {
@@ -755,12 +763,24 @@ video {
   width: 100%;
 }
 
-.w-\[117px\] {
-  width: 117px;
+.w-screen {
+  width: 100vw;
+}
+
+.basis-1\/4 {
+  flex-basis: 25%;
+}
+
+.flex-row {
+  flex-direction: row;
 }
 
 .flex-col {
   flex-direction: column;
+}
+
+.place-content-between {
+  place-content: space-between;
 }
 
 .content-center {
@@ -775,6 +795,10 @@ video {
   align-items: center;
 }
 
+.items-stretch {
+  align-items: stretch;
+}
+
 .justify-start {
   justify-content: flex-start;
 }
@@ -787,10 +811,6 @@ video {
   justify-content: space-between;
 }
 
-.justify-around {
-  justify-content: space-around;
-}
-
 .justify-evenly {
   justify-content: space-evenly;
 }
@@ -801,6 +821,11 @@ video {
 
 .gap-\[40px\] {
   gap: 40px;
+}
+
+.gap-x-10 {
+  -moz-column-gap: 2.5rem;
+       column-gap: 2.5rem;
 }
 
 .rounded-\[2px\] {
@@ -867,14 +892,34 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
+.bg-black {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+}
+
+.bg-neutral-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(115 115 115 / var(--tw-bg-opacity));
+}
+
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
-.py-\[60px\] {
-  padding-top: 60px;
-  padding-bottom: 60px;
+.px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.py-10 {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+
+.py-4 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 .pl-\[20px\] {
@@ -885,9 +930,18 @@ video {
   text-align: center;
 }
 
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
 .text-3xl {
   font-size: 1.875rem;
   line-height: 2.25rem;
+}
+
+.text-\[13px\] {
+  font-size: 13px;
 }
 
 .text-\[14px\] {
@@ -922,10 +976,6 @@ video {
   line-height: 1rem;
 }
 
-.text-\[13px\] {
-  font-size: 13px;
-}
-
 .font-normal {
   font-weight: 400;
 }
@@ -934,12 +984,12 @@ video {
   line-height: 20px;
 }
 
-.leading-\[26px\] {
-  line-height: 26px;
-}
-
 .leading-\[21px\] {
   line-height: 21px;
+}
+
+.leading-\[26px\] {
+  line-height: 26px;
 }
 
 .leading-\[45px\] {
@@ -964,6 +1014,11 @@ video {
 .text-\[\#ffffff\] {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.text-slate-400 {
+  --tw-text-opacity: 1;
+  color: rgb(148 163 184 / var(--tw-text-opacity));
 }
 
 .text-white {
@@ -1000,15 +1055,6 @@ video {
     height: 60px;
   }
 
-  .mobile\:w-full {
-    width: 100%;
-  }
-
-  .mobile\:w-min {
-    width: -moz-min-content;
-    width: min-content;
-  }
-
   .mobile\:w-\[117px\] {
     width: 117px;
   }
@@ -1019,6 +1065,15 @@ video {
 
   .mobile\:w-\[80px\] {
     width: 80px;
+  }
+
+  .mobile\:w-full {
+    width: 100%;
+  }
+
+  .mobile\:w-min {
+    width: -moz-min-content;
+    width: min-content;
   }
 
   .mobile\:flex-col {
@@ -1068,12 +1123,12 @@ video {
     width: 240px;
   }
 
-  .tablet\:w-\[50\%\] {
-    width: 50%;
-  }
-
   .tablet\:w-\[357px\] {
     width: 357px;
+  }
+
+  .tablet\:w-\[50\%\] {
+    width: 50%;
   }
 
   .tablet\:w-\[97px\] {
